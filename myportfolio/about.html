@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portofolio Data</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="shortcut icon" href="img/icon.png" type="image/x-icon" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar">
+      <div class="container">
+        <a href="../index.html" class="navbar-brand"
+          ><strong>Pitri'</strong><span>Portofolio</span></a
+        >
+        <div class="menu-toggle">
+          <span class="menu-text">MENU</span>
+          <div class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Sidebar -->
+    <div class="sidebar" id="sidebar">
+      <ul>
+        <li><a href="/index.html">Beranda</a></li>
+        <li><a href="#aboutme">Tentang Saya</a></li>
+        <li><a href="#course">Pelatihan & Kursus Online</a></li>
+        <li><a href="#contact">Kontak</a></li>
+      </ul>
+    </div>
+
+    <!-- Overlay -->
+    <div class="overlay" id="overlay"></div>
+
+    <main>
+      <section class="home">
+        <div class="container text-center">
+          <div class="line"></div>
+          <h2 class="header-2">Tentang Saya</h2>
+          <div class="line"></div>
+          <div class="aboutme" id="aboutme">
+            <div class="loading-spinner">
+              <i class="fa-solid fa-spinner fa-spin"></i>
+            </div>
+          </div>
+        </div>
+        <div id="course" class="container course">
+          <div class="line"></div>
+          <h2 class="header-2">Training & Online Course</h2>
+          <div class="line"></div>
+          <p>
+            Untuk terus mengembangkan kemampuan saya, saya telah mengikuti
+            berbagai pelatihan dan kursus online, antara lain:
+          </p>
+          <div class="list-course" id="list-course">
+            <div class="loading-spinner">
+              <i class="fa-solid fa-spinner fa-spin"></i>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer id="contact">
+      <div class="social-links">
+        <a href="https://github.com/ppitria" target="_blank"
+          ><i class="fab fa-github"></i
+        ></a>
+        <a href="https://www.linkedin.com/in/pitriani" target="_blank"
+          ><i class="fab fa-linkedin"></i
+        ></a>
+        <a
+          href="https://www.instagram.com/ptrnii__?igsh=bDF5c3lhNWRwNjY2"
+          target="_blank"
+          ><i class="fab fa-instagram"></i
+        ></a>
+        <a href="mailto:pitripitriani173@gmail.com" target="_blank"
+          ><i class="fa-regular fa-envelope"></i
+        ></a>
+      </div>
+    </footer>
+
+    <!-- SUPABASE -->
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+
+    <script src="/scripts.js"></script>
+  </body>
+</html>
